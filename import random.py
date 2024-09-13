@@ -11,8 +11,8 @@ def check(user,comp):
     elif(comp==0 and user==2):
         return -1
     return 1
-
-print(comp)
+print("the choice of the user is: %d"%user)
+print("the choice of the computer is: %d"%comp)
 score=check(comp,user)
 if(score==0):
     print('its a draw')
